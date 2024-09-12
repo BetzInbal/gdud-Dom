@@ -17,6 +17,20 @@ body {
     padding: 1px;
 }
 
+table {
+    width: 99vw;
+    border: 1px solid;
+    border-bottom: white;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    border-color: white;
+}
+
 h2 {
     color: #2ECC71;
 }
@@ -70,5 +84,3 @@ h2 {
 .bAddit {
     background-color: #2ECC71;
 }
-
-input {}
