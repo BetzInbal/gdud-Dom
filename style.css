@@ -53,16 +53,22 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 6px;
+    padding: 19px, 50px;
 }
 
 .addit>* {
+    width: 45vh;
     border-radius: 6px;
     background-color: #22313F;
     height: 3vh;
-    padding: 1px, 10px;
+
+
 }
 
 .bAddit {
     background-color: #2ECC71;
 }
+
+input {}
