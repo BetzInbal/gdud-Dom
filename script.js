@@ -54,6 +54,7 @@ function pupledTable() {
         for (const key in sold) {
             const tdSold = document.createElement("td")
             tdSold.textContent = sold[key]
+
             trSold.appendChild(tdSold)
         }
         table.appendChild(trSold)
